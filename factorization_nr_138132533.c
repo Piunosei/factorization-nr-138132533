@@ -138,7 +138,7 @@ if(mpz_cmp(y,M)>=0){
 
    mpz_add(a,a,uno);
  }
-
+mpz_sub(a,a,uno);
  gmp_printf ("\na=%Zd\n",a);
 gmp_printf ("\np=\n%Zd\n",p);
 
